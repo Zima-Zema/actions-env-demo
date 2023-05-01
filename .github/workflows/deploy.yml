@@ -11,7 +11,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CLUSTER_ADDRESS: demo-cluster-01.sd1npko.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: 20.124.62.131
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
     environment: testing
